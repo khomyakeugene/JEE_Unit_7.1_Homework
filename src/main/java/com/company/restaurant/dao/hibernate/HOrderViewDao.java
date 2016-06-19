@@ -5,7 +5,7 @@ import com.company.restaurant.dao.OrderViewDao;
 import com.company.restaurant.dao.hibernate.proto.HDaoEntity;
 import com.company.restaurant.model.Order;
 import com.company.restaurant.model.OrderView;
-import com.company.restaurant.util.ObjectService;
+import com.company.util.ObjectService;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
