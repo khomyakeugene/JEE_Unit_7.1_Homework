@@ -7,7 +7,7 @@ import com.company.restaurant.model.CookedCourse;
 import com.company.restaurant.model.CookedCourseView;
 import com.company.restaurant.model.Course;
 import com.company.restaurant.model.Employee;
-import com.company.restaurant.util.ObjectService;
+import com.company.util.ObjectService;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
