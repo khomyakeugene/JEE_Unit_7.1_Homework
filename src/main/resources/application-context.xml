@@ -505,7 +505,7 @@
         <property name="mainMenu" ref="mainMenu"/>
     </bean>
 
-    <!-- AOP-CONTEXT, , intentionally do not exclude from here and store in the separate context-file such as "aop-context.xml" -->
+    <!-- AOP-CONTEXT, intentionally do not exclude from here and store in the separate context-file such as "aop-context.xml" -->
     <bean id="logAspect" class="com.company.restaurant.aop.LogAspect">
     </bean>
     <aop:aspectj-autoproxy proxy-target-class="true"/>
